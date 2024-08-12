@@ -1,0 +1,22 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\muham\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'init' ]
+2 info using npm@3.10.9
+3 info using node@v10.13.0
+4 verbose stack Error: kill ENOSYS
+4 verbose stack     at process.kill (internal/process/per_thread.js:198:13)
+4 verbose stack     at process.listener (C:\Users\muham\AppData\Roaming\npm\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:86:15)
+4 verbose stack     at process.emit (events.js:187:15)
+5 verbose cwd C:\xampp\htdocs
+6 error Windows_NT 10.0.17134
+7 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\muham\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "init"
+8 error node v10.13.0
+9 error npm  v3.10.9
+10 error code ENOSYS
+11 error errno ENOSYS
+12 error syscall kill
+13 error kill ENOSYS
+14 error If you need help, you may report this error at:
+14 error     <https://github.com/npm/npm/issues>
+15 verbose exit [ 1, true ]
